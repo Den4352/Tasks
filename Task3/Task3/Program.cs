@@ -5,12 +5,12 @@ List<int> b = new List<int>();
 int n = -1;
 int max = -1;
 int s_max = -1;
+n = Int32.Parse(Console.ReadLine());
 
 while (n != 0)
 {
-	n = Int32.Parse(Console.ReadLine());
 	b.Add(n);
-	if (n <= 0 || n > 1000)
+	if (n < 0 || n > 1000)
 	{
 		Console.WriteLine("Ошибка ввода");
 		break;
@@ -21,17 +21,20 @@ while (n != 0)
 		{
 			s_max = max;
 			max = n;
+
 		}
 		else if (s_max < n)
 		{
 			s_max = n;
 		}
-		Console.WriteLine(s_max);
+		
 	}
+	n = Int32.Parse(Console.ReadLine());
 }
-if(b.Count < 2)
+
+if (b.Count < 3)
 {
 	Console.WriteLine("Элементов меньше 2");
 }
-
-
+Console.WriteLine(s_max);
+Console.ReadLine();
