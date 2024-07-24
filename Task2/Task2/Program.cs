@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel;
+using System;
 
 Console.WriteLine("Введите число a");
 int a = Int32.Parse(Console.ReadLine());
@@ -17,8 +18,13 @@ if (a <= b)
         arr.Add(i);
       }
     }
-    int maxI = arr.Max();
-		Console.WriteLine("Максимальное число кратное 7 на отрезке " + a + " и " + b + " = " + maxI);
+    if (arr.Count >0)
+    {
+			int maxI = arr.Max();
+			Console.WriteLine("Максимальное число кратное 7 на отрезке " + a + " и " + b + " = " + maxI);
+		}
+    else
+			Console.WriteLine("NO");
 	}
   else
     Console.WriteLine("Одно из чисел больше 2*10^4 по модулю");
