@@ -1,0 +1,15 @@
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\Task8.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\Task8.AssemblyInfoInputs.cache
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\Task8.AssemblyInfo.cs
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\Task8.csproj.CoreCompileInputs.cache
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\Task8.sourcelink.json
+D:\_Работа\C#\Tasks\Task8\Task8\bin\Debug\net8.0\Task8.exe
+D:\_Работа\C#\Tasks\Task8\Task8\bin\Debug\net8.0\Task8.deps.json
+D:\_Работа\C#\Tasks\Task8\Task8\bin\Debug\net8.0\Task8.runtimeconfig.json
+D:\_Работа\C#\Tasks\Task8\Task8\bin\Debug\net8.0\Task8.dll
+D:\_Работа\C#\Tasks\Task8\Task8\bin\Debug\net8.0\Task8.pdb
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\Task8.dll
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\refint\Task8.dll
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\Task8.pdb
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\Task8.genruntimeconfig.cache
+D:\_Работа\C#\Tasks\Task8\Task8\obj\Debug\net8.0\ref\Task8.dll

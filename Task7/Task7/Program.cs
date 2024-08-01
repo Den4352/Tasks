@@ -4,9 +4,10 @@ using System;
 
 try
 {
+	Console.WriteLine("Введите число: ");
 	string s = Console.ReadLine(); //Введенное число в string
 	int num = Int32.Parse(s); //Введенное число в int
-	if (num > 0 && num <= Math.Pow(10, 9) && s[s.Length] != 0) //Условия работы программы (натуральное число, меньше 10^9, не заканчивается на 0)
+	if (num > 0 && num <= Math.Pow(10, 9) && s[s.Length-1] != '0') //Условия работы программы (натуральное число, меньше 10^9, не заканчивается на 0)
 	{
 		char[] str = s.ToCharArray(); //массив элементов введеного числа
 		Array.Reverse(str); //реверс массива
